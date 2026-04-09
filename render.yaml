@@ -1,0 +1,8 @@
+render.yaml
+services:
+  - type: worker
+    name: bot-v3-3-pattern-news
+    env: python
+    plan: starter
+    buildCommand: pip install -r requirements.txt
+    startCommand: python bot_v3_3_elite_pattern_news.py --mode auto --interval-minutes 15

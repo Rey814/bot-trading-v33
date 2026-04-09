@@ -1,4 +1,4 @@
-requirements.txt
+
 yfinance
 pandas
 numpy
